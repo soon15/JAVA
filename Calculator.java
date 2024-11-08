@@ -1,13 +1,10 @@
-package ch01.sec11;
+package ch07.sec04;
 
 public class Calculator {
-
-	public static void main(String[] args) {
-		int x = 1;
-		int y = 2;
-		int result = x + y;
-		System.out.println(result);
-
+	
+	public double areaCircle(double r) {
+		System.out.println("Calculator 객체의 areaCirclie() 실행");
+		return 3.14159 * r * r;
 	}
 
 }
